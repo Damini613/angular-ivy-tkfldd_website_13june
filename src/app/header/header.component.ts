@@ -13,10 +13,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit() {
   }
 
-  err:true;
-
-  updateColor(){
-    this.color = "blue"
-  }
+ 
 
 }
