@@ -1,0 +1,10 @@
+<app-header></app-header>
+<br>
+<form #form1="ngForm" (submit)="getValues(form1.value)">
+  <input type="text" ngModel name="username" placeholder="enter username"> <br> <br>
+  <input type="password" ngModel name="password" placeholder="enter password" >
+  <br> <br>
+  <button (click)="toNotify()">Submit</button>
+</form>
+
+<app-footer></app-footer>
