@@ -9,7 +9,14 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  color = "red"
   ngOnInit() {
+  }
+
+  err:true;
+
+  updateColor(){
+    this.color = "blue"
   }
 
 }
